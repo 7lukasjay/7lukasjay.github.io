@@ -1,0 +1,20 @@
+p {
+    background-color: lightskyblue !important; 
+}
+
+#text {
+    background-color: red;
+    font-size: 80px;
+}
+
+
+.text {
+    background-color: green;
+    font-size: 45px;
+    }
+
+
+p {
+    background-color: yellow;
+    font-size: 22px;
+}
