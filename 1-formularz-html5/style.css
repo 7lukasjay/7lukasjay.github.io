@@ -1,0 +1,56 @@
+html body {
+    color: deepskyblue;
+    background-color: darkslateblue;
+}
+
+h1 {
+    color: crimson;
+    font-style: italic;
+    font-size: 30px;
+}
+
+form {
+    padding: 3px;
+}
+
+p {
+    margin: 1px;
+}
+
+input, textarea, select {
+    border: 1px solid #213b50;
+    border-radius: 6px;
+    background-color: rgb(176, 241, 241);
+    padding: 4px;
+    color: crimson;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea, select {
+    display: block;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    font-weight: bold;
+    border: 3px solid darkblue;
+    width: 70px;
+    height: 36px;
+}
+
+input[type="submit"]:hover {
+    color: crimson;
+    background-color: #8a9fb1;
+}
+
+textarea {
+    width: 25%;
+    height: 70px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: red;
+    background-color: #8a9fb1;
+}
