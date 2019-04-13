@@ -1,0 +1,20 @@
+#strawberry-left {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#strawberry-right {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+#strawberry {
+    float: none;
+}
+
+p:last-child {
+    background-color: yellowgreen;
+    clear: both; /* może byc wyczyszczony float tylko po lewej (left) lub po prawej (right) */
+}
