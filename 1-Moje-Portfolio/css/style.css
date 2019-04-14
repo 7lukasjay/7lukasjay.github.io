@@ -1,29 +1,11 @@
 * {
     box-sizing: border-box;
 }
-/*
-*
-HEADER START
-*
-*/
 
-header {
-    margin-bottom: 0;
-    padding: 70px;
-    background-image: url(img/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.header-content {
-    font-family: 'Rajdhani'; 
-    color: darkblue;
+h2 {
+    margin: 15px;
     text-align: center;
-}
-
-header h1 {
-    font-size: 60px;
-    margin-bottom: 3px;
+    font-size: 28px;
 }
 
 hr {
@@ -32,21 +14,49 @@ hr {
     background-color: rgb(89, 16, 156);
 }
 
+/*
+*
+HEADER START
+*
+*/
+
+.main-header {
+    margin-bottom: 0;
+    height: 70vh;
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content { 
+    color: darkblue;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Rajdhani';
+    font-size: 60px;
+}
+
 header p {
+    font-family: 'Rajdhani';
     font-size: 40px;
 }
 
 header button {
     font-size: 18px;
-    font-style: inherit;
-    background-color: rgb(192, 243, 243);
+    background-color: rgba(135, 206, 250, 0.692);
     padding: 10px;
-    border: 2px solid rgb(86, 131, 216);
+    border: 3px solid rgb(86, 131, 216);
     border-radius: 7%;
 }
 
 header button:hover {
-    border: 2px solid red;
+    color: rgb(179, 0, 0);
+    border: 3px solid red;
 }
 
 /*
@@ -62,19 +72,51 @@ NAV BAR START
 *
 */
 .main-nav{
-    font-size: 22px;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    font-size: 19px;
 }
+
+.main-nav ul {
+    margin: 0px;
+    padding: 15px;
+    background-color: lightskyblue;
+    text-align: center;
+
+    
+}
+
 .main-nav li {
+    margin-right: 30px;
+    margin-left: 30px;
     display: inline-block;
-    justify-content: space-around;
 }
 
-
+.main-nav a:hover {
+    color: red;
+}
 
 /*
 *
 NAV BAR END
+*
+*/
+
+/*
+*
+ABOUT CONTENT START
+*
+*/
+
+section.about {
+    text-align: center;
+}
+
+section.about .about-img img {
+    border-radius: 50%;
+}
+
+
+/*
+*
+ABOUT CONTENT END
 *
 */
