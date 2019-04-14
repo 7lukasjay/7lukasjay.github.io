@@ -114,6 +114,10 @@ section.about .about-img img {
     border-radius: 50%;
 }
 
+section.about .about-text p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 /*
 *
