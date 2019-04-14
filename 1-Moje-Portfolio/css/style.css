@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+/*
+*
+HEADER START
+*
+*/
+
+header {
+    margin-bottom: 0;
+    padding: 70px;
+    background-image: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    font-family: 'Rajdhani'; 
+    color: darkblue;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 3px;
+}
+
+hr {
+    width: 130px;
+    height: 2px;
+    background-color: rgb(89, 16, 156);
+}
+
+header p {
+    font-size: 40px;
+}
+
+header button {
+    font-size: 18px;
+    font-style: inherit;
+    background-color: rgb(192, 243, 243);
+    padding: 10px;
+    border: 2px solid rgb(86, 131, 216);
+    border-radius: 7%;
+}
+
+header button:hover {
+    border: 2px solid red;
+}
+
+/*
+*
+HEADER END
+*
+*/
+
+/*
+
+*
+NAV BAR START
+*
+*/
+.main-nav{
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.main-nav li {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+
+
+/*
+*
+NAV BAR END
+*
+*/
