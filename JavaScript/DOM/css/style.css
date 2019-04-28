@@ -14,3 +14,17 @@ span {
 	padding: 0 20px;
 	border-right: 1px solid red;
 }
+
+.active {
+    background-color: yellow !important; 
+    color: blue;
+}
+
+#parSecond {
+    border: 1px solid red;
+    background-color: tomato;
+}
+
+#parWParSecond {
+    background-color: yellow;
+}
