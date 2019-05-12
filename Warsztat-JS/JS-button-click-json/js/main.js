@@ -55,12 +55,25 @@ pobierzDaneBtn.addEventListener('click', getData);
 
 //WARSZTAT 2
 
-let pobierzDaneBtn = $('#pobierzDane');
 
-pobierzDaneBtn.click(function() {
-    $.getJSON('https://jsonplaceholder.typicode.com/users/1', 
-    response => {
-        console.log(response);
+$( () => {
+    const getData = () => {
+        $.getJSON('https://jsonplaceholder.typicode.com/users/1',
+        response => {
+            const paragraf = $('<p>');
+            const user = response;
+
+            paragraf.html (`
+                <span>User ID: ${user.id}</span><br />
+                <span>User NAME: ${user.name}</span><br />
+                <span>User WEBSITE: ${user.website}</span>
+            `);
+
+            $('#pobierzDaneBtn').after(paragraf);
+        });
     }
-    )
-});
+
+    $('#pobierzDaneBtn').click(() => {
+        getData();
+    })
+})
